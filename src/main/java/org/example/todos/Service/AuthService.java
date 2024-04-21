@@ -23,16 +23,7 @@ public class AuthService {
         authRepository.save(user);
     }
 
-//    // دخول وخروج بدي فاضي وتحديث وقيت وحذف ال يوزرز للادمن
-//
-//    public void login(String username,String password){
-//
-//    }
-//
-//
-//   public void logout(){
-//
-//    }
+
 
 
     public List<User> getAllUsers() {
